@@ -1,14 +1,13 @@
 import React from "react";
-import classes from "./MagInput.module.css";
+import classes from "./CssInput.module.css";
 
 const CssInput = (props) => {
   return (
     <div className={classes.MagInput}>
       <form onSubmit={props.submit}>
-        <input type="text" value="Enter a mag name.." onChange="" />
+        <textarea type="text" value="Copy & Paste your CSS here!" onChange="" />
         <br />
         <br />
-        <input type="submit"></input>
       </form>
     </div>
   );

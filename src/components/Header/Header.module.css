@@ -2,14 +2,13 @@
     height: 50px;
     width: 100%;
     padding-top: 15px;
-    background-color: black;
-    color: white;
+    background-color: aquamarine;
+    color: black;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
 .Header p {
-    background-color: black;
     font-weight: bold;
     font-size: 22px;
 }
