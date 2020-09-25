@@ -3,14 +3,21 @@
     width: 100%;
     padding-top: 15px;
     background-color: aquamarine;
-    color: black;
     text-align: center;
     font-family: 'Montserrat', sans-serif;
 }
 
 .Header p {
+    z-index: 10;
+    color: white;
+    width: fit-content;
+    margin: auto;
+    background-color: black;
+    position: relative;
     font-weight: bold;
     font-size: 22px;
+    padding: 10px;
+    border-radius: 5px 5px 5px 5px;
 }
 
 @keyframes glowup {

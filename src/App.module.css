@@ -3,6 +3,22 @@
   height: 100%;
 }
 
+.Lines {
+  z-index: 1;
+  background-color: lightgreen;
+  width: 2000px;
+  border: 80px double black;
+  height: 50px;
+  border-radius: 25px 25px 25px 25px;
+  transform:
+      translateY(150px)
+      translateX(-100px)
+      rotate(0deg); 
+
+
+  position: absolute;
+  /* top: -20px; */
+}
 
 .App-header {
   background-color: #282c34;
@@ -18,4 +34,6 @@
 .App-link {
   color: #61dafb;
 }
+
+
 

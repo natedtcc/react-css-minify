@@ -1,0 +1,24 @@
+.Button {
+    background-color: black;
+    text-align: center;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    margin: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+    box-shadow: black;
+}
+
+
+.Success {
+    color: #5C9210;
+}
+
+.Danger {
+    color: #944317;
+}
