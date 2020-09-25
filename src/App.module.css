@@ -6,17 +6,17 @@
 .Lines {
   z-index: 1;
   background-color: lightgreen;
-  width: 2000px;
+  width: 1000px;
   border: 80px double black;
   height: 50px;
+  margin-left: auto;
+  margin-right: auto;
   border-radius: 25px 25px 25px 25px;
   transform:
       translateY(150px)
-      translateX(-100px)
+      translateX(0px)
       rotate(0deg); 
-
-
-  position: absolute;
+  position: relative;
   /* top: -20px; */
 }
 

@@ -1,8 +1,9 @@
 .CssInput {
-    position: sticky;
+    position: relative;
     max-width: 800px;
+    min-width: 800px;
     margin: auto;
-    margin-top: 20px;
+    margin-top: -200px;
     padding-top: 20px;
     height: 475px;
     background-color: black;
